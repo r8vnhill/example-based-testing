@@ -22,6 +22,9 @@ subprojects {
 
     dependencies {
         detektPlugins("$detektFormattingModule:$detektFormattingVersion")
-        implementation(kotestBundle)
+        if (name != "bakemon") {
+            implementation(kotestBundle)
+            implementation(project(":bakemon"))
+        }
     }
 }

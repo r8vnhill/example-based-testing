@@ -15,4 +15,9 @@ dependencyResolutionManagement {    // Gestión de resolución de dependencias
     }
 }
 
-include(":test-basics")
+include(
+    ":bakemon",
+    ":test-basics",
+    ":test-utils",
+    ":exceptions"
+)

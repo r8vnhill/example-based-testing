@@ -1,1 +1,3 @@
-// Intentionally left blank
+dependencies {
+    implementation(project(":test-utils"))
+}
