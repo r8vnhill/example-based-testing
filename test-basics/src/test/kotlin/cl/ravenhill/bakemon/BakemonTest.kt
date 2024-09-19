@@ -10,7 +10,7 @@ class BakemonTest : FreeSpec({
     lateinit var bigachu: Bakemon
 
     beforeTest {
-        bigachu = createBakemon()
+        bigachu = createBakemon(BAKEMON_NAME, BAKEMON_HEALTH)
     }
 
     "A Bakémon" - {
@@ -19,9 +19,7 @@ class BakemonTest : FreeSpec({
         }
 
         "should have health points" {
-            bigachu.healthPoints shouldBe BAKEMON_HEALTH
+            bigachu.maxHealthPoints shouldBe BAKEMON_HEALTH
         }
     }
 })
-
-private fun createBakemon(): Bakemon = object : AbstractBakemon(BAKEMON_NAME, BAKEMON_HEALTH) {}

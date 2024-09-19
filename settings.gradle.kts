@@ -19,5 +19,5 @@ include(
     ":bakemon",
     ":test-basics",
     ":test-utils",
-    ":exceptions"
+    ":test-exceptions"
 )
