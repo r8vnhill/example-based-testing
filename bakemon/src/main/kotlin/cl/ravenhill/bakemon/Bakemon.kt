@@ -4,4 +4,6 @@ interface Bakemon {
     val name: String
     val maxHealthPoints: Int
     var currentHealthPoints: Int
+
+    fun attack(target: Bakemon)
 }

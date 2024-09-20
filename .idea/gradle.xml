@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/bakemon" />
             <option value="$PROJECT_DIR$/convention-plugins" />
+            <option value="$PROJECT_DIR$/data-driven-testing" />
             <option value="$PROJECT_DIR$/test-basics" />
             <option value="$PROJECT_DIR$/test-exceptions" />
             <option value="$PROJECT_DIR$/test-utils" />

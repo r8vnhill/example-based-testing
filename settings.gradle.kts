@@ -19,5 +19,6 @@ include(
     ":bakemon",
     ":test-basics",
     ":test-utils",
-    ":test-exceptions"
+    ":test-exceptions",
+    ":data-driven-testing"
 )
